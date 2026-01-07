@@ -34,9 +34,11 @@
     font-size: 45px;
     font-weight: 900;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
+
 .color-orange {
     color: #FD6E0A;
 
@@ -59,7 +61,7 @@ header {
     background-color: #FFF8F3;
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position:23px 38px, bottom right;
     padding-top: 50px;
 
 }
@@ -112,25 +114,18 @@ nav .menu a {
     color: #181818;
     margin-bottom: 20px;
 }
-
 #banner .banner-content p {
     font-size: 18px;
     color: #757575;
     line-height: 30px;
-    margin-bottom: 30px;
-
-}
-
+    margin-bottom: 30px;}
 #banner .banner-image {
     max-width: 585px;
-    vertical-align: middle;
-}
-
+    vertical-align: middle;}
 #about,
 #skill,
 #resume {
-    padding-top: 130px;
-}
+    padding-top: 130px;}
 
 #about .about-container {
     width: 71%;
@@ -138,8 +133,7 @@ nav .menu a {
     margin: 0 auto;
     text-align: center;
     background-color: #FFF8F3;
-    padding: 132px 156px;
-}
+    padding: 132px 156px;}
 
 #about .about-container .about-info {
     display: flex;
@@ -161,16 +155,18 @@ nav .menu a {
 
 
 #skills .skill-container {
-    width: 71%;
+    /* width: 71%; */
     max-width: 1140px;
     margin: 0 auto;
     background-color: #FFF8F3;
     padding: 131px 156px;
+    box-sizing: border-box;
 }
 
 #skills .skill-container .skill-box {
     display: flex;
     gap: 24px;
+    margin-top: 0;
 
 }
 
@@ -242,3 +238,52 @@ nav .menu a {
     color: #757575;
 }
 
+footer {
+    margin: 130px;
+    background-color: rgba(255, 248, 243, 1);
+    padding-left: 130px 0;
+}
+
+footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+footer .footer-container .social {
+    max-width: 562px;
+
+}
+
+.footer-container h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container .social p{
+    /* color:#474747
+    font-size: 16px;
+
+     */
+color: #474747;
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+margin-bottom: 30px ;
+}
+
+.footer-container .icons a{
+    margin-right: 24px;
+
+}
+.footer-container form input[type="text"],.footer-container form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color:#757575;
+}
